@@ -11,5 +11,5 @@
 ## Login Using The CLI
 
 ```kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo```
-Jedq-V4ZQBil0ZTe
+ygWThIloUuXXJ1Ic
 
