@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kuber-2
+  name: kuber-1
   labels:
     app: kuber
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: http-server
