@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/bakavets/argocd_ex1.git
+    repoURL: https://github.com/pvalera111/argocd_ex1.git
     targetRevision: master
     path: charts/demo
 
